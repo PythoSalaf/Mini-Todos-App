@@ -53,10 +53,10 @@ function App() {
       <div className="todos-content-container">
         {error ? (
           <>
-            <h4>Oh there is an error</h4>
+            <h4 className="error-mes">Oh, sorry there is an error</h4>
           </>
         ) : isLoading ? (
-          <>Loading.....</>
+          <h3 className="loader">Loading.....</h3>
         ) : todos ? (
           <div>
             {todos.map((data) => (

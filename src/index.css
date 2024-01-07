@@ -117,6 +117,21 @@ body {
   text-decoration: line-through;
 }
 
+.error-mes {
+  text-align: center;
+  padding: 2rem 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.loader {
+  font-size: 18px;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #fff;
+}
+
 /* 
 ===================================================================
                   RESPONSIVE MODE
