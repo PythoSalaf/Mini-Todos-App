@@ -3,23 +3,27 @@
     {
       "id": 1,
       "title": "Going for walk",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
       "title": "Watching movies",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "title": "Reading books",
       "completed": false
     },
     {
       "id": 4,
       "title": "Playing football",
-      "completed": true 
+      "completed": false
+    },
+    {
+      "title": "Coding for hours",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "title": "Calling my Dad",
+      "completed": false,
+      "id": 6
     }
   ]
-  
 }

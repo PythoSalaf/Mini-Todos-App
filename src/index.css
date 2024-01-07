@@ -80,13 +80,19 @@ body {
   width: 95%;
   background-color: #222;
   margin: 1.5rem auto;
-  padding: 1rem;
   border-radius: 10px;
 }
 
 .todos-content {
   width: 95%;
   background-color: #fff;
+  margin: 1rem auto;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+}
+.todos-content-completed {
+  width: 95%;
+  background-color: green;
   margin: 1rem auto;
   border-radius: 5px;
   padding: 0.5rem 0;
@@ -98,6 +104,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
+}
+
+.todos {
+  font-size: 18px;
+}
+
+.todos-completed {
+  font-size: 18px;
+  color: white;
+  text-decoration: line-through;
 }
 
 /* 
